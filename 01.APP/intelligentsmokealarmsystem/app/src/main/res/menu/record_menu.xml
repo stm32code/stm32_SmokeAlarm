@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intelligentsmokealarmsystem.RecordActivity">
+    <item
+        android:id="@+id/tempView"
+        android:orderInCategory="100"
+        android:title="@string/temp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/humiView"
+        android:orderInCategory="100"
+        android:title="@string/humi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/somgView"
+        android:orderInCategory="100"
+        android:title="@string/somg"
+        app:showAsAction="never" />
+</menu>

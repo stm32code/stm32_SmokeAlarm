@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.intelligentsmokealarmsystem.MainActivity">
+    <item
+        android:id="@+id/setDebugView"
+        android:orderInCategory="100"
+        android:title="@string/debug"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setHistoryView"
+        android:orderInCategory="100"
+        android:title="@string/history"
+        app:showAsAction="never" />
+</menu>
